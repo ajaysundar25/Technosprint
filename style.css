@@ -1,0 +1,58 @@
+.paragraph
+{
+    color: rgb(235, 194, 158);
+    position: absolute;
+    bottom: 600px;
+    margin-left: 300px;
+    font-family: 'Sansita Swashed', cursive;
+}
+
+
+h2{
+  margin-top: 30px;
+  font-family: 'Abril Fatface', cursive;
+  font-size: 50px;
+}
+
+h5
+{
+    color: rgb(184, 141, 63);
+    position: absolute;
+    bottom: 480px;
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 30px;
+
+}
+
+h5 span {
+    color: #fff;
+    transition: 0.3s;
+    border-bottom: 2px solid #03C4EB;
+}
+
+@media (max-width: 768px) {
+     h5 {
+      font-size: 24px;
+      line-height: 26px;
+      margin-bottom: 30px;
+    }
+     h5 .rotating {
+      display: block;
+    }
+  }
+   .rotating > .animated {
+    display: inline-block;
+   }
+   .team .member-photo:hover img {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+  
+  .team .member-photo img {
+    transition: all 0.6s ease 0s;
+  }
+.h3 
+{
+  font-family: 'Lobster', cursive;
+  
+}
